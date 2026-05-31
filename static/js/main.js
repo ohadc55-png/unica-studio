@@ -149,6 +149,49 @@
     window.addEventListener("resize", hsOnScroll);
     hsUpdate();
 
+    /* mobile: native horizontal scroll-snap.
+       build dots + track which panel is centred so reveals + ken-burns
+       still fire correctly. */
+    var hsPin = hsite.querySelector(".hsite__pin");
+    var dotsEl = document.createElement("div");
+    dotsEl.className = "hsite__dots";
+    dotsEl.setAttribute("aria-hidden", "true");
+    for (var d = 0; d < N; d++) {
+      var dot = document.createElement("span");
+      dot.dataset.i = d;
+      dotsEl.appendChild(dot);
+    }
+    document.body.appendChild(dotsEl);
+    var dotEls = Array.prototype.slice.call(dotsEl.children);
+
+    var mLastIdx = -1;
+    var mUpdate = function () {
+      if (window.innerWidth > 900 || !hsPin) return;
+      var w = hsPin.clientWidth;
+      if (w <= 0) return;
+      /* RTL pin: scrollLeft is negative in Firefox/Chrome, positive in Safari.
+         abs(scrollLeft) / w gives the panel index regardless. */
+      var sl = Math.abs(hsPin.scrollLeft);
+      var idx = Math.round(sl / w);
+      if (idx < 0) idx = 0;
+      if (idx >= N) idx = N - 1;
+      if (idx === mLastIdx) return;
+      mLastIdx = idx;
+      panels.forEach(function (p, i) { p.classList.toggle("is-current", i === idx); });
+      dotEls.forEach(function (s, i) { s.classList.toggle("is-active", i === idx); });
+    };
+
+    var mQueued = false;
+    var mOnScroll = function () {
+      if (!mQueued) {
+        mQueued = true;
+        requestAnimationFrame(function () { mUpdate(); mQueued = false; });
+      }
+    };
+    if (hsPin) hsPin.addEventListener("scroll", mOnScroll, { passive: true });
+    window.addEventListener("resize", mUpdate);
+    mUpdate();
+
     // anchor → scroll the page to the Y position that lands on that panel
     var panAnchors = document.querySelectorAll("[data-pan-href]");
     panAnchors.forEach(function (a) {
