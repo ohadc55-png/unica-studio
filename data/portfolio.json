@@ -1,0 +1,1515 @@
+{
+  "projects": [
+    {
+      "title": "מטודלה 6",
+      "slug": "matudela-6",
+      "count": 21,
+      "cover": "img/projects/matudela-6/full/01.webp",
+      "cover_jpg": "img/projects/matudela-6/full/01.jpg",
+      "images": [
+        {
+          "full": "img/projects/matudela-6/full/01.webp",
+          "full_jpg": "img/projects/matudela-6/full/01.jpg",
+          "thumb": "img/projects/matudela-6/thumb/01.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/01.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/02.webp",
+          "full_jpg": "img/projects/matudela-6/full/02.jpg",
+          "thumb": "img/projects/matudela-6/thumb/02.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/02.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/03.webp",
+          "full_jpg": "img/projects/matudela-6/full/03.jpg",
+          "thumb": "img/projects/matudela-6/thumb/03.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/03.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/04.webp",
+          "full_jpg": "img/projects/matudela-6/full/04.jpg",
+          "thumb": "img/projects/matudela-6/thumb/04.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/04.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/05.webp",
+          "full_jpg": "img/projects/matudela-6/full/05.jpg",
+          "thumb": "img/projects/matudela-6/thumb/05.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/05.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/06.webp",
+          "full_jpg": "img/projects/matudela-6/full/06.jpg",
+          "thumb": "img/projects/matudela-6/thumb/06.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/06.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/07.webp",
+          "full_jpg": "img/projects/matudela-6/full/07.jpg",
+          "thumb": "img/projects/matudela-6/thumb/07.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/07.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/08.webp",
+          "full_jpg": "img/projects/matudela-6/full/08.jpg",
+          "thumb": "img/projects/matudela-6/thumb/08.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/08.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/09.webp",
+          "full_jpg": "img/projects/matudela-6/full/09.jpg",
+          "thumb": "img/projects/matudela-6/thumb/09.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/09.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/10.webp",
+          "full_jpg": "img/projects/matudela-6/full/10.jpg",
+          "thumb": "img/projects/matudela-6/thumb/10.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/10.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/11.webp",
+          "full_jpg": "img/projects/matudela-6/full/11.jpg",
+          "thumb": "img/projects/matudela-6/thumb/11.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/11.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/12.webp",
+          "full_jpg": "img/projects/matudela-6/full/12.jpg",
+          "thumb": "img/projects/matudela-6/thumb/12.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/12.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/13.webp",
+          "full_jpg": "img/projects/matudela-6/full/13.jpg",
+          "thumb": "img/projects/matudela-6/thumb/13.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/13.jpg",
+          "w": 1920,
+          "h": 3412,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/matudela-6/full/14.webp",
+          "full_jpg": "img/projects/matudela-6/full/14.jpg",
+          "thumb": "img/projects/matudela-6/thumb/14.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/14.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/15.webp",
+          "full_jpg": "img/projects/matudela-6/full/15.jpg",
+          "thumb": "img/projects/matudela-6/thumb/15.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/15.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/16.webp",
+          "full_jpg": "img/projects/matudela-6/full/16.jpg",
+          "thumb": "img/projects/matudela-6/thumb/16.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/16.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/17.webp",
+          "full_jpg": "img/projects/matudela-6/full/17.jpg",
+          "thumb": "img/projects/matudela-6/thumb/17.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/17.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/18.webp",
+          "full_jpg": "img/projects/matudela-6/full/18.jpg",
+          "thumb": "img/projects/matudela-6/thumb/18.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/18.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/19.webp",
+          "full_jpg": "img/projects/matudela-6/full/19.jpg",
+          "thumb": "img/projects/matudela-6/thumb/19.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/19.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/20.webp",
+          "full_jpg": "img/projects/matudela-6/full/20.jpg",
+          "thumb": "img/projects/matudela-6/thumb/20.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/20.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/matudela-6/full/21.webp",
+          "full_jpg": "img/projects/matudela-6/full/21.jpg",
+          "thumb": "img/projects/matudela-6/thumb/21.webp",
+          "thumb_jpg": "img/projects/matudela-6/thumb/21.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        }
+      ]
+    },
+    {
+      "title": "אברהם אבינו 24",
+      "slug": "avraham-avinu-24",
+      "count": 23,
+      "cover": "img/projects/avraham-avinu-24/full/01.webp",
+      "cover_jpg": "img/projects/avraham-avinu-24/full/01.jpg",
+      "images": [
+        {
+          "full": "img/projects/avraham-avinu-24/full/01.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/01.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/01.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/01.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/02.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/02.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/02.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/02.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/03.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/03.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/03.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/03.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/04.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/04.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/04.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/04.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/05.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/05.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/05.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/05.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/06.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/06.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/06.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/06.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/07.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/07.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/07.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/07.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/08.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/08.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/08.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/08.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/09.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/09.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/09.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/09.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/10.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/10.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/10.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/10.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/11.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/11.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/11.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/11.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/12.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/12.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/12.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/12.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/13.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/13.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/13.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/13.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/14.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/14.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/14.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/14.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/15.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/15.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/15.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/15.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/16.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/16.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/16.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/16.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/17.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/17.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/17.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/17.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/18.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/18.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/18.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/18.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/19.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/19.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/19.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/19.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/20.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/20.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/20.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/20.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/21.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/21.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/21.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/21.jpg",
+          "w": 1920,
+          "h": 3414,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/22.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/22.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/22.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/22.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/avraham-avinu-24/full/23.webp",
+          "full_jpg": "img/projects/avraham-avinu-24/full/23.jpg",
+          "thumb": "img/projects/avraham-avinu-24/thumb/23.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-24/thumb/23.jpg",
+          "w": 1920,
+          "h": 3414,
+          "landscape": false
+        }
+      ]
+    },
+    {
+      "title": "אברהם אבינו 33",
+      "slug": "avraham-avinu-33",
+      "count": 26,
+      "cover": "img/projects/avraham-avinu-33/full/23.webp",
+      "cover_jpg": "img/projects/avraham-avinu-33/full/23.jpg",
+      "images": [
+        {
+          "full": "img/projects/avraham-avinu-33/full/01.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/01.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/01.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/01.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/02.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/02.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/02.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/02.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/03.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/03.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/03.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/03.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/04.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/04.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/04.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/04.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/05.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/05.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/05.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/05.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/06.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/06.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/06.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/06.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/07.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/07.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/07.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/07.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/08.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/08.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/08.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/08.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/09.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/09.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/09.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/09.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/10.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/10.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/10.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/10.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/11.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/11.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/11.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/11.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/12.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/12.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/12.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/12.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/13.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/13.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/13.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/13.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/14.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/14.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/14.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/14.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/15.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/15.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/15.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/15.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/16.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/16.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/16.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/16.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/17.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/17.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/17.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/17.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/18.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/18.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/18.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/18.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/19.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/19.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/19.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/19.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/20.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/20.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/20.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/20.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/21.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/21.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/21.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/21.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/22.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/22.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/22.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/22.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/23.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/23.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/23.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/23.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/24.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/24.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/24.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/24.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/25.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/25.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/25.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/25.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/avraham-avinu-33/full/26.webp",
+          "full_jpg": "img/projects/avraham-avinu-33/full/26.jpg",
+          "thumb": "img/projects/avraham-avinu-33/thumb/26.webp",
+          "thumb_jpg": "img/projects/avraham-avinu-33/thumb/26.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        }
+      ]
+    },
+    {
+      "title": "דוד המלך 25",
+      "slug": "david-hamelech-25",
+      "count": 22,
+      "cover": "img/projects/david-hamelech-25/full/01.webp",
+      "cover_jpg": "img/projects/david-hamelech-25/full/01.jpg",
+      "images": [
+        {
+          "full": "img/projects/david-hamelech-25/full/01.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/01.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/01.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/01.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/02.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/02.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/02.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/02.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/03.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/03.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/03.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/03.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/04.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/04.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/04.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/04.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/05.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/05.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/05.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/05.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/06.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/06.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/06.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/06.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/07.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/07.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/07.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/07.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/08.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/08.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/08.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/08.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/09.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/09.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/09.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/09.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/10.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/10.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/10.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/10.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/11.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/11.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/11.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/11.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/12.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/12.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/12.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/12.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/13.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/13.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/13.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/13.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/14.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/14.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/14.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/14.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/15.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/15.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/15.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/15.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/16.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/16.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/16.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/16.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/17.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/17.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/17.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/17.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/18.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/18.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/18.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/18.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/19.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/19.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/19.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/19.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/20.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/20.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/20.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/20.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/21.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/21.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/21.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/21.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/david-hamelech-25/full/22.webp",
+          "full_jpg": "img/projects/david-hamelech-25/full/22.jpg",
+          "thumb": "img/projects/david-hamelech-25/thumb/22.webp",
+          "thumb_jpg": "img/projects/david-hamelech-25/thumb/22.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        }
+      ]
+    },
+    {
+      "title": "השלום 31",
+      "slug": "hashalom-31",
+      "count": 24,
+      "cover": "img/projects/hashalom-31/full/07.webp",
+      "cover_jpg": "img/projects/hashalom-31/full/07.jpg",
+      "images": [
+        {
+          "full": "img/projects/hashalom-31/full/01.webp",
+          "full_jpg": "img/projects/hashalom-31/full/01.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/01.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/01.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/02.webp",
+          "full_jpg": "img/projects/hashalom-31/full/02.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/02.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/02.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/03.webp",
+          "full_jpg": "img/projects/hashalom-31/full/03.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/03.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/03.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/04.webp",
+          "full_jpg": "img/projects/hashalom-31/full/04.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/04.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/04.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/05.webp",
+          "full_jpg": "img/projects/hashalom-31/full/05.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/05.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/05.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/06.webp",
+          "full_jpg": "img/projects/hashalom-31/full/06.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/06.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/06.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/07.webp",
+          "full_jpg": "img/projects/hashalom-31/full/07.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/07.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/07.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/08.webp",
+          "full_jpg": "img/projects/hashalom-31/full/08.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/08.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/08.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/09.webp",
+          "full_jpg": "img/projects/hashalom-31/full/09.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/09.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/09.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/10.webp",
+          "full_jpg": "img/projects/hashalom-31/full/10.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/10.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/10.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/11.webp",
+          "full_jpg": "img/projects/hashalom-31/full/11.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/11.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/11.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/12.webp",
+          "full_jpg": "img/projects/hashalom-31/full/12.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/12.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/12.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/13.webp",
+          "full_jpg": "img/projects/hashalom-31/full/13.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/13.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/13.jpg",
+          "w": 1920,
+          "h": 3412,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/hashalom-31/full/14.webp",
+          "full_jpg": "img/projects/hashalom-31/full/14.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/14.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/14.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/15.webp",
+          "full_jpg": "img/projects/hashalom-31/full/15.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/15.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/15.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/16.webp",
+          "full_jpg": "img/projects/hashalom-31/full/16.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/16.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/16.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/17.webp",
+          "full_jpg": "img/projects/hashalom-31/full/17.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/17.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/17.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/18.webp",
+          "full_jpg": "img/projects/hashalom-31/full/18.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/18.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/18.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/19.webp",
+          "full_jpg": "img/projects/hashalom-31/full/19.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/19.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/19.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/20.webp",
+          "full_jpg": "img/projects/hashalom-31/full/20.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/20.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/20.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/21.webp",
+          "full_jpg": "img/projects/hashalom-31/full/21.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/21.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/21.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/22.webp",
+          "full_jpg": "img/projects/hashalom-31/full/22.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/22.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/22.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/23.webp",
+          "full_jpg": "img/projects/hashalom-31/full/23.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/23.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/23.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/hashalom-31/full/24.webp",
+          "full_jpg": "img/projects/hashalom-31/full/24.jpg",
+          "thumb": "img/projects/hashalom-31/thumb/24.webp",
+          "thumb_jpg": "img/projects/hashalom-31/thumb/24.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        }
+      ]
+    },
+    {
+      "title": "בר גיורא 24",
+      "slug": "giora-24",
+      "count": 23,
+      "cover": "img/projects/giora-24/full/05.webp",
+      "cover_jpg": "img/projects/giora-24/full/05.jpg",
+      "images": [
+        {
+          "full": "img/projects/giora-24/full/01.webp",
+          "full_jpg": "img/projects/giora-24/full/01.jpg",
+          "thumb": "img/projects/giora-24/thumb/01.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/01.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/02.webp",
+          "full_jpg": "img/projects/giora-24/full/02.jpg",
+          "thumb": "img/projects/giora-24/thumb/02.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/02.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/03.webp",
+          "full_jpg": "img/projects/giora-24/full/03.jpg",
+          "thumb": "img/projects/giora-24/thumb/03.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/03.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/04.webp",
+          "full_jpg": "img/projects/giora-24/full/04.jpg",
+          "thumb": "img/projects/giora-24/thumb/04.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/04.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/05.webp",
+          "full_jpg": "img/projects/giora-24/full/05.jpg",
+          "thumb": "img/projects/giora-24/thumb/05.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/05.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/06.webp",
+          "full_jpg": "img/projects/giora-24/full/06.jpg",
+          "thumb": "img/projects/giora-24/thumb/06.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/06.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/07.webp",
+          "full_jpg": "img/projects/giora-24/full/07.jpg",
+          "thumb": "img/projects/giora-24/thumb/07.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/07.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/08.webp",
+          "full_jpg": "img/projects/giora-24/full/08.jpg",
+          "thumb": "img/projects/giora-24/thumb/08.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/08.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/09.webp",
+          "full_jpg": "img/projects/giora-24/full/09.jpg",
+          "thumb": "img/projects/giora-24/thumb/09.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/09.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/10.webp",
+          "full_jpg": "img/projects/giora-24/full/10.jpg",
+          "thumb": "img/projects/giora-24/thumb/10.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/10.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/11.webp",
+          "full_jpg": "img/projects/giora-24/full/11.jpg",
+          "thumb": "img/projects/giora-24/thumb/11.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/11.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/12.webp",
+          "full_jpg": "img/projects/giora-24/full/12.jpg",
+          "thumb": "img/projects/giora-24/thumb/12.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/12.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/13.webp",
+          "full_jpg": "img/projects/giora-24/full/13.jpg",
+          "thumb": "img/projects/giora-24/thumb/13.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/13.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/14.webp",
+          "full_jpg": "img/projects/giora-24/full/14.jpg",
+          "thumb": "img/projects/giora-24/thumb/14.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/14.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/15.webp",
+          "full_jpg": "img/projects/giora-24/full/15.jpg",
+          "thumb": "img/projects/giora-24/thumb/15.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/15.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/16.webp",
+          "full_jpg": "img/projects/giora-24/full/16.jpg",
+          "thumb": "img/projects/giora-24/thumb/16.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/16.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/17.webp",
+          "full_jpg": "img/projects/giora-24/full/17.jpg",
+          "thumb": "img/projects/giora-24/thumb/17.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/17.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/18.webp",
+          "full_jpg": "img/projects/giora-24/full/18.jpg",
+          "thumb": "img/projects/giora-24/thumb/18.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/18.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/19.webp",
+          "full_jpg": "img/projects/giora-24/full/19.jpg",
+          "thumb": "img/projects/giora-24/thumb/19.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/19.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/20.webp",
+          "full_jpg": "img/projects/giora-24/full/20.jpg",
+          "thumb": "img/projects/giora-24/thumb/20.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/20.jpg",
+          "w": 1920,
+          "h": 1081,
+          "landscape": true
+        },
+        {
+          "full": "img/projects/giora-24/full/21.webp",
+          "full_jpg": "img/projects/giora-24/full/21.jpg",
+          "thumb": "img/projects/giora-24/thumb/21.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/21.jpg",
+          "w": 1920,
+          "h": 3414,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/giora-24/full/22.webp",
+          "full_jpg": "img/projects/giora-24/full/22.jpg",
+          "thumb": "img/projects/giora-24/thumb/22.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/22.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/giora-24/full/23.webp",
+          "full_jpg": "img/projects/giora-24/full/23.jpg",
+          "thumb": "img/projects/giora-24/thumb/23.webp",
+          "thumb_jpg": "img/projects/giora-24/thumb/23.jpg",
+          "w": 1920,
+          "h": 3414,
+          "landscape": false
+        }
+      ]
+    },
+    {
+      "title": "בר גיורא 18",
+      "slug": "bar-giora-18",
+      "count": 19,
+      "cover": "img/projects/bar-giora-18/full/01.webp",
+      "cover_jpg": "img/projects/bar-giora-18/full/01.jpg",
+      "images": [
+        {
+          "full": "img/projects/bar-giora-18/full/01.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/01.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/01.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/01.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/02.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/02.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/02.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/02.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/03.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/03.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/03.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/03.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/04.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/04.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/04.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/04.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/05.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/05.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/05.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/05.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/06.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/06.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/06.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/06.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/07.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/07.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/07.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/07.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/08.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/08.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/08.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/08.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/09.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/09.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/09.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/09.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/10.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/10.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/10.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/10.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/11.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/11.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/11.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/11.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/12.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/12.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/12.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/12.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/13.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/13.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/13.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/13.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/14.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/14.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/14.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/14.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/15.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/15.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/15.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/15.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/16.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/16.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/16.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/16.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/17.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/17.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/17.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/17.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/18.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/18.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/18.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/18.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        },
+        {
+          "full": "img/projects/bar-giora-18/full/19.webp",
+          "full_jpg": "img/projects/bar-giora-18/full/19.jpg",
+          "thumb": "img/projects/bar-giora-18/thumb/19.webp",
+          "thumb_jpg": "img/projects/bar-giora-18/thumb/19.jpg",
+          "w": 1920,
+          "h": 2560,
+          "landscape": false
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "full": "img/projects/matudela-6/full/02.webp",
+    "full_jpg": "img/projects/matudela-6/full/02.jpg"
+  },
+  "hero_slides": [
+    {
+      "full": "img/projects/matudela-6/full/02.webp",
+      "full_jpg": "img/projects/matudela-6/full/02.jpg"
+    },
+    {
+      "full": "img/projects/avraham-avinu-33/full/24.webp",
+      "full_jpg": "img/projects/avraham-avinu-33/full/24.jpg"
+    },
+    {
+      "full": "img/projects/giora-24/full/05.webp",
+      "full_jpg": "img/projects/giora-24/full/05.jpg"
+    },
+    {
+      "full": "img/projects/david-hamelech-25/full/01.webp",
+      "full_jpg": "img/projects/david-hamelech-25/full/01.jpg"
+    },
+    {
+      "full": "img/projects/matudela-6/full/03.webp",
+      "full_jpg": "img/projects/matudela-6/full/03.jpg"
+    }
+  ]
+}

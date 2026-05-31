@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ c.brand }} · {{ c.tagline }} | {{ c.owner }}</title>
+  <meta name="description" content="יוניקה — סטודיו להשבחת נכסים. תכנון, עיצוב, שיפוץ וסטיילינג שהופכים נכס לתוצאה. מבחר עבודות נבחרות." />
+  <meta property="og:title" content="{{ c.brand }} · {{ c.tagline }}" />
+  <meta property="og:description" content="סטודיו להשבחת נכסים — מהפוטנציאל לתוצאה." />
+  <meta property="og:type" content="website" />
+  {% if portfolio.hero %}<meta property="og:image" content="{{ url_for('static', filename=portfolio.hero.full_jpg) }}" />{% endif %}
+  <meta name="theme-color" content="#F4EFE6" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Heebo:wght@200;300;400;500;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" data-pan="0" aria-label="{{ c.brand }}">
+        <span class="brand__mark">{{ c.brand }}</span>
+        <span class="brand__sub">{{ c.tagline }}</span>
+      </a>
+      <nav class="nav__links" aria-label="ניווט ראשי">
+        {% for item in c.nav %}<a href="{{ item.href }}" data-pan-href="{{ item.href }}">{{ item.label }}</a>{% endfor %}
+      </nav>
+      <a href="{{ c.hero.cta_primary.href }}" data-pan-href="{{ c.hero.cta_primary.href }}" class="nav__cta">{{ c.hero.cta_primary.label }}</a>
+      <button class="nav__toggle" id="navToggle" aria-label="תפריט" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- mobile menu is a sibling of .nav so it isn't trapped inside the nav's
+       backdrop-filter containing block -->
+  <div class="mobile-menu" id="mobileMenu">
+    {% for item in c.nav %}<a href="{{ item.href }}" data-pan-href="{{ item.href }}" data-close>{{ item.label }}</a>{% endfor %}
+    <a href="{{ c.hero.cta_primary.href }}" data-pan-href="{{ c.hero.cta_primary.href }}" class="mobile-menu__cta" data-close>{{ c.hero.cta_primary.label }}</a>
+  </div>
+
+  {# full-bleed bg image + legibility scrim, picked from a curated photo
+     per panel via c.panel_bg[id]: {project: int, img: int} #}
+  {% macro panel_bg(panel_id) %}
+    {% set conf = c.panel_bg[panel_id] %}
+    {% set bgi  = portfolio.projects[conf.project].images[conf.img] %}
+    <div class="spanel__bg" aria-hidden="true">
+      <picture>
+        <source srcset="{{ url_for('static', filename=bgi.full) }}" type="image/webp">
+        <img src="{{ url_for('static', filename=bgi.full_jpg) }}" alt="" loading="lazy" />
+      </picture>
+    </div>
+    <div class="spanel__scrim" aria-hidden="true"></div>
+  {% endmacro %}
+
+  <main id="top">
+
+    <!-- HORIZONTAL SITE: each section is a 100vw × 100vh panel that slides in -->
+    <div class="hsite" id="hsite" style="--total-slots:10">
+      <div class="hsite__pin">
+        <div class="hsite__track" id="hsiteTrack">
+
+          <!-- 0 · HERO -->
+          <section class="spanel spanel--hero" data-i="0" data-slots="1" data-id="hero" style="--i:0">
+            {{ panel_bg('hero') }}
+            <div class="spanel__inner spanel__inner--end">
+              <div class="spanel__card hero__card reveal">
+                <span class="kicker"><i>00</i>{{ c.hero.kicker }}</span>
+                <h1 class="hero__title">
+                  {% for line in c.hero.title_lines %}<span class="reveal" style="--d:{{ loop.index0 * 0.12 + 0.15 }}s">{{ line }}</span>{% endfor %}
+                </h1>
+                <p class="hero__sub reveal" style="--d:.55s">{{ c.hero.sub }}</p>
+                <div class="hero__actions reveal" style="--d:.7s">
+                  <a href="{{ c.hero.cta_primary.href }}" data-pan-href="{{ c.hero.cta_primary.href }}" class="btn btn--solid">{{ c.hero.cta_primary.label }}</a>
+                  <a href="{{ c.hero.cta_secondary.href }}" data-pan-href="{{ c.hero.cta_secondary.href }}" class="btn btn--ghost">{{ c.hero.cta_secondary.label }}</a>
+                </div>
+              </div>
+            </div>
+            <div class="spanel__foot reveal" style="--d:.85s">
+              <span class="hero__scroll">גלילה אופקית</span>
+              <span class="hero__owner">{{ c.owner }}</span>
+            </div>
+          </section>
+
+          <!-- 1 · STATEMENT -->
+          <section class="spanel spanel--statement" data-i="1" data-slots="1" data-id="statement" style="--i:1">
+            {{ panel_bg('statement') }}
+            <div class="spanel__inner spanel__inner--center">
+              <div class="spanel__card spanel__card--tight">
+                <span class="spanel__cap">I</span>
+                <p class="statement__text reveal-lines"><span>{{ c.statement }}</span></p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2 · STUDIO / INTRO (meet Sabrina) -->
+          <section class="spanel spanel--studio" data-i="2" data-slots="1" data-id="studio" style="--i:2">
+            {{ panel_bg('studio') }}
+            <div class="spanel__inner">
+              <div class="spanel__card studio__card">
+                <div class="studio__grid">
+                  <div class="studio__body">
+                    <span class="label reveal"><i>01</i>{{ c.studio.label }}</span>
+                    <h2 class="studio__title reveal">{{ c.studio.title }}</h2>
+                    <p class="studio__intro reveal">{{ c.studio.intro }}</p>
+                    {% for p in c.studio.paragraphs %}<p class="reveal" style="--d:{{ (loop.index0 + 1) * 0.08 }}s">{{ p }}</p>{% endfor %}
+                    <div class="studio__sign reveal">
+                      <span class="studio__sign-name">{{ c.owner }}</span>
+                      <span class="studio__sign-role">מייסדת · {{ c.brand }}</span>
+                    </div>
+                  </div>
+                  <div class="studio__portrait reveal">
+                    <img src="{{ url_for('static', filename=c.studio.portrait) }}" alt="{{ c.studio.portrait_alt }}" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3 · SERVICES -->
+          <section class="spanel spanel--services" data-i="3" data-slots="1" data-id="services" style="--i:3">
+            {{ panel_bg('services') }}
+            <div class="spanel__inner">
+              <div class="spanel__card services__card">
+                <div class="spanel__head">
+                  <span class="label reveal"><i>02</i>{{ c.services.label }}</span>
+                  <h2 class="section-title reveal">{{ c.services.title }}</h2>
+                </div>
+                <ul class="svc-list">
+                  {% for s in c.services['items'] %}
+                  <li class="svc reveal" style="--d:{{ loop.index0 * 0.06 }}s">
+                    <span class="svc__n">{{ s.n }}</span>
+                    <h3 class="svc__title">{{ s.title }}</h3>
+                    <p class="svc__text">{{ s.text }}</p>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- 4 · PROCESS -->
+          <section class="spanel spanel--process" data-i="4" data-slots="1" data-id="process" style="--i:4">
+            {{ panel_bg('process') }}
+            <div class="spanel__inner">
+              <div class="spanel__card process__card">
+                <div class="spanel__head">
+                  <span class="label reveal"><i>03</i>{{ c.process.label }}</span>
+                  <h2 class="section-title reveal">{{ c.process.title }}</h2>
+                </div>
+                <div class="steps">
+                  {% for st in c.process.steps %}
+                  <div class="step reveal" style="--d:{{ loop.index0 * 0.08 }}s">
+                    <span class="step__n">{{ st.n }}</span>
+                    <h3 class="step__title">{{ st.title }}</h3>
+                    <p class="step__text">{{ st.text }}</p>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 5 · WORK (stack-fan) — NO background image, keeps paper gradient -->
+          <section class="spanel spanel--work" data-i="5" data-slots="2" data-id="work" style="--i:5">
+            <div class="spanel__inner work__inner">
+              <div class="spanel__head spanel__head--center">
+                <span class="label reveal"><i>04</i>{{ c.work.label }}</span>
+                <h2 class="section-title reveal">{{ c.work.title }}</h2>
+                <p class="work__sub reveal">{{ c.work.sub }}</p>
+              </div>
+              <div class="wstack" id="wstack" style="--cards:{{ portfolio.projects|length }}">
+                {% for p in portfolio.projects %}
+                {% set ci = loop.index0 %}
+                {% set total = portfolio.projects|length %}
+                {# RTL: first card (01) sits on the right (positive --off), last card (07) on the left #}
+                {% set off = ((total - 1) / 2 - ci) %}
+                <article class="wcard" data-i="{{ ci }}" style="--ci:{{ ci }}; --off:{{ '%.3f'|format(off) }};">
+                  <button class="wcard__btn" data-open="{{ p.slug }}" aria-label="גלריית {{ p.title }}">
+                    <div class="wcard__media">
+                      <picture>
+                        <source srcset="{{ url_for('static', filename=p.cover) }}" type="image/webp">
+                        <img src="{{ url_for('static', filename=p.cover_jpg) }}" alt="{{ p.title }}" />
+                      </picture>
+                    </div>
+                    <div class="wcard__cap">
+                      <span class="wcard__n">{{ '%02d'|format(loop.index) }}</span>
+                      <span class="wcard__t">{{ p.title }}</span>
+                      <span class="wcard__c">{{ p.count }} תמונות</span>
+                    </div>
+                  </button>
+                </article>
+                {% endfor %}
+              </div>
+              <p class="wstack__hint reveal">לחצו על פרויקט לפתיחת הגלריה</p>
+            </div>
+          </section>
+
+          <!-- 6 · VALUES -->
+          <section class="spanel spanel--values" data-i="6" data-slots="1" data-id="values" style="--i:6">
+            {{ panel_bg('values') }}
+            <div class="spanel__inner">
+              <div class="spanel__card values__card">
+                <div class="spanel__head">
+                  <span class="label reveal"><i>✦</i>{{ c['values'].label }}</span>
+                  <h2 class="section-title reveal">{{ c['values'].title }}</h2>
+                </div>
+                <div class="vals">
+                  {% for v in c['values']['items'] %}
+                  <div class="val reveal" style="--d:{{ loop.index0 * 0.06 }}s">
+                    <span class="val__n">{{ '%02d'|format(loop.index) }}</span>
+                    <h3 class="val__title">{{ v.title }}</h3>
+                    <p class="val__text">{{ v.text }}</p>
+                  </div>
+                  {% endfor %}
+                </div>
+                <p class="values__closing reveal-lines"><span>{{ c['values'].closing }}</span></p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 7 · QUOTE -->
+          <section class="spanel spanel--quote" data-i="7" data-slots="1" data-id="quote" style="--i:7">
+            {{ panel_bg('quote') }}
+            <div class="spanel__inner spanel__inner--center">
+              <div class="spanel__card spanel__card--tight quote__inner">
+                <span class="spanel__cap">II</span>
+                <blockquote class="quote__text reveal-lines"><span>״{{ c.quote.text }}״</span></blockquote>
+                <span class="quote__author reveal">— {{ c.quote.author }}</span>
+              </div>
+            </div>
+          </section>
+
+          <!-- 8 · CONTACT -->
+          <section class="spanel spanel--contact" data-i="8" data-slots="1" data-id="contact" style="--i:8">
+            {{ panel_bg('contact') }}
+            <div class="spanel__inner spanel__inner--end">
+              <div class="spanel__card spanel__card--dark contact__inner">
+                <span class="label label--light reveal"><i>05</i>{{ c.contact.label }}</span>
+                <h2 class="contact__title reveal">{{ c.contact.title }}</h2>
+                <p class="contact__sub reveal">{{ c.contact.sub }}</p>
+                <div class="contact__actions reveal">
+                  <a class="cbtn cbtn--primary" href="https://wa.me/{{ c.contact.whatsapp }}?text={{ c.contact.whatsapp_msg|urlencode }}" target="_blank" rel="noopener">
+                    <span>WhatsApp</span><i>שיחה מהירה</i>
+                  </a>
+                  <a class="cbtn" href="tel:{{ c.contact.phone }}"><span>{{ c.contact.phone_display }}</span><i>טלפון</i></a>
+                  <a class="cbtn" href="mailto:{{ c.contact.email }}"><span>{{ c.contact.email }}</span><i>אימייל</i></a>
+                  <a class="cbtn" href="{{ c.contact.instagram_url }}" target="_blank" rel="noopener"><span>@{{ c.contact.instagram_handle }}</span><i>אינסטגרם</i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div><!-- /.hsite__track -->
+
+        <!-- horizontal progress HUD -->
+        <div class="hsite__hud" aria-hidden="true">
+          <div class="hsite__chapters">
+            <span data-chap="0">00</span>
+            <span data-chap="1">01</span>
+            <span data-chap="2">02</span>
+            <span data-chap="3">03</span>
+            <span data-chap="4">04</span>
+            <span data-chap="5">05</span>
+          </div>
+          <div class="hsite__bar"><span id="hsiteFill"></span></div>
+        </div>
+      </div><!-- /.hsite__pin -->
+    </div><!-- /.hsite -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__mark">{{ c.brand }}</span>
+        <span class="footer__tag">{{ c.tagline }} · {{ c.owner }}</span>
+      </div>
+      <div class="footer__meta">
+        <h5>שעות פעילות</h5>
+        {% for h in c.hours %}<span>{{ h }}</span>{% endfor %}
+        <a href="mailto:{{ c.contact.email }}" dir="ltr">{{ c.contact.email }}</a>
+      </div>
+      <nav class="footer__nav">
+        {% for item in c.nav %}<a href="{{ item.href }}" data-pan-href="{{ item.href }}">{{ item.label }}</a>{% endfor %}
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__copy">© {{ year }} {{ c.brand }}. כל הזכויות שמורות.</span>
+      <span class="footer__credit">צילום · {{ c.photographer }}</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox__bar">
+      <span class="lightbox__title" id="lbTitle"></span>
+      <span class="lightbox__count" id="lbCount" dir="ltr"></span>
+      <button class="lightbox__close" id="lbClose" aria-label="סגור">✕</button>
+    </div>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="הקודם">‹</button>
+    <div class="lightbox__stage" id="lbStage"></div>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="הבא">›</button>
+    <div class="lightbox__thumbs" id="lbThumbs"></div>
+  </div>
+
+  <script id="pf-data" type="application/json">{{ portfolio['projects']|tojson }}</script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
