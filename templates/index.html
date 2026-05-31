@@ -42,6 +42,10 @@
     <a href="{{ c.hero.cta_primary.href }}" data-pan-href="{{ c.hero.cta_primary.href }}" class="mobile-menu__cta" data-close>{{ c.hero.cta_primary.label }}</a>
   </div>
 
+  <!-- mobile-only swipe chevrons; toggled by JS based on panel position -->
+  <div class="hsite__hint hsite__hint--next" id="hintNext" aria-hidden="true">‹</div>
+  <div class="hsite__hint hsite__hint--prev is-hidden" id="hintPrev" aria-hidden="true">›</div>
+
   {# full-bleed bg image + legibility scrim, picked from a curated photo
      per panel via c.panel_bg[id]: {project: int, img: int} #}
   {% macro panel_bg(panel_id) %}
@@ -171,6 +175,9 @@
                 <span class="label reveal"><i>04</i>{{ c.work.label }}</span>
                 <h2 class="section-title reveal">{{ c.work.title }}</h2>
                 <p class="work__sub reveal">{{ c.work.sub }}</p>
+              </div>
+              <div class="wstack__pos" aria-hidden="true">
+                <span id="wposNum">01</span><span class="wstack__sep">/</span><span>{{ '%02d'|format(portfolio.projects|length) }}</span>
               </div>
               <div class="wstack" id="wstack" style="--cards:{{ portfolio.projects|length }}">
                 {% for p in portfolio.projects %}

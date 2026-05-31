@@ -27,13 +27,14 @@
   --ease: cubic-bezier(.22,.7,.18,1);
   --nav-h: 72px;
 
-  /* card surface — frosted paper over a room photo */
-  --card-bg:    rgba(244,239,230,.90);
-  --card-line:  rgba(255,255,255,.55);
+  /* card surface — frosted paper over a room photo.
+     lower alpha = the room behind reveals itself through the card. */
+  --card-bg:    rgba(244,239,230,.75);
+  --card-line:  rgba(255,255,255,.45);
   --card-shadow: 0 50px 80px -40px rgba(20,17,12,.55);
 
-  --card-bg-dark: rgba(22,19,15,.86);
-  --card-line-dark: rgba(244,239,230,.16);
+  --card-bg-dark: rgba(22,19,15,.72);
+  --card-line-dark: rgba(244,239,230,.14);
 }
 
 *,*::before,*::after{ box-sizing:border-box; margin:0; padding:0; }
@@ -795,59 +796,156 @@ button{ font-family:inherit; cursor:pointer; border:none; background:none; color
     width:20px; border-radius:3px; background:var(--ink);
   }
 
-  /* WORK panel — vertical scroll-snap of large project cards */
+  /* WORK panel — vertical slider, one card prominent + peek of the next */
   .spanel--work{ overflow:hidden; }
   .spanel--work .spanel__inner{
     padding:calc(var(--nav-h) + .8rem) 0 0;
     height:100svh;
     min-height:0;
     justify-content:flex-start;
-    gap:.6rem;
+    gap:.5rem;
     overflow:hidden;
   }
   .spanel--work .spanel__head--center{
     padding:0 1.2rem;
     flex:0 0 auto;
+    gap:.4rem;
   }
   .spanel--work .spanel__head--center .section-title{
     font-size:clamp(1.5rem,5.6vw,2rem);
   }
-  .spanel--work .work__sub{ font-size:.88rem; }
-  .spanel--work .work__inner{ gap:.6rem; }
+  .spanel--work .work__sub{ font-size:.85rem; }
+  .spanel--work .work__inner{ gap:.5rem; }
   .spanel--work .wstack__hint{ display:none; }
 
+  /* the slider container — vertical scroll-snap mandatory */
   .spanel--work .wstack{
     position:relative;
     flex:1; min-height:0;
     height:auto;
     display:flex;
     flex-direction:column;
-    gap:.9rem;
-    padding:.4rem 1rem 1.2rem;
+    gap:1rem;
+    padding:.4rem 1rem 1.4rem;
     overflow-y:auto;
     overflow-x:hidden;
     scroll-snap-type:y mandatory;
+    scroll-snap-stop:always;
     -webkit-overflow-scrolling:touch;
     overscroll-behavior-y:contain;
+    touch-action:pan-y;
     perspective:none;
     scrollbar-width:none;
   }
   .spanel--work .wstack::-webkit-scrollbar{ display:none; }
 
+  /* each card: ~82% of the slider height — leaves the next card peeking */
   .spanel--work .wcard{
     position:relative; top:auto; left:auto;
     width:100%;
-    flex:0 0 auto;
-    aspect-ratio:4/5;
+    flex:0 0 82%;
+    height:82%;
+    aspect-ratio:auto;
     transform:none !important;
     z-index:auto !important;
-    scroll-snap-align:center;
+    scroll-snap-align:start;
     scroll-snap-stop:always;
-    filter:drop-shadow(0 18px 32px rgba(28,25,21,.22));
+    filter:drop-shadow(0 24px 40px rgba(28,25,21,.32));
+    border-radius:6px;
+    overflow:hidden;
   }
   .spanel--work .wcard:hover{ transform:none !important; }
-  .spanel--work .wcard__media{ height:78%; }
-  .spanel--work .wcard__t{ font-size:1.05rem; }
+
+  /* the card itself is full-bleed photo with overlay caption */
+  .spanel--work .wcard__btn{
+    width:100%; height:100%;
+    border-radius:6px;
+    border:1px solid rgba(244,239,230,.18);
+    position:relative;
+    padding:0;
+    text-align:right;
+  }
+  .spanel--work .wcard__media{
+    width:100%; height:100%;
+    position:absolute; inset:0;
+  }
+  .spanel--work .wcard__media img{
+    width:100%; height:100%; object-fit:cover;
+  }
+  .spanel--work .wcard__cap{
+    position:absolute;
+    left:0; right:0; bottom:0;
+    z-index:2;
+    padding:1.4rem 1.3rem 1.1rem;
+    gap:.2em;
+    background:linear-gradient(0deg, rgba(0,0,0,.82) 0%, rgba(0,0,0,.4) 65%, transparent 100%);
+    color:var(--paper);
+  }
+  .spanel--work .wcard__n{ font-size:.78rem; letter-spacing:.22em; color:var(--brass-lt); }
+  .spanel--work .wcard__t{ font-size:1.25rem; white-space:normal; }
+  .spanel--work .wcard__c{ font-size:.68rem; }
+
+  /* position indicator — sits just below the work-panel header,
+     at the top-right of the slider, clearing the nav. */
+  .spanel--work .wstack__pos{
+    position:absolute;
+    top:calc(var(--nav-h) + 6.4rem);
+    right:1.4rem;
+    z-index:6;
+    display:flex; align-items:baseline; gap:.3em;
+    padding:.35rem .75rem;
+    background:rgba(28,25,21,.6);
+    backdrop-filter:blur(10px) saturate(140%);
+    -webkit-backdrop-filter:blur(10px) saturate(140%);
+    border:1px solid rgba(244,239,230,.18);
+    border-radius:100px;
+    font-family:var(--cou);
+    font-size:.85rem; letter-spacing:.14em;
+    color:var(--paper);
+    pointer-events:none;
+  }
+  .spanel--work .wstack__pos #wposNum{ font-weight:500; color:var(--brass-lt); }
+  .spanel--work .wstack__sep{ opacity:.5; }
+
+  /* swipe hints — animated chevron pills at the left/right viewport edges.
+     RTL: "next" panel is on the LEFT, so the chevron points left. */
+  .hsite__hint{
+    position:fixed;
+    top:50%;
+    width:28px; height:52px;
+    z-index:115;
+    display:flex; align-items:center; justify-content:center;
+    color:rgba(244,239,230,.95);
+    background:rgba(28,25,21,.42);
+    backdrop-filter:blur(10px) saturate(140%);
+    -webkit-backdrop-filter:blur(10px) saturate(140%);
+    border:1px solid rgba(255,255,255,.18);
+    font-family:var(--cou); font-size:1.5rem; font-weight:500;
+    pointer-events:none;
+    transition:opacity .4s var(--ease);
+  }
+  .hsite__hint--next{
+    left:0; border-radius:0 8px 8px 0;
+    animation:hintl 2.2s ease-in-out infinite;
+  }
+  .hsite__hint--prev{
+    right:0; border-radius:8px 0 0 8px;
+    animation:hintr 2.2s ease-in-out infinite;
+  }
+  .hsite__hint.is-hidden{ opacity:0; }
+  @keyframes hintl{
+    0%, 100%{ transform:translateY(-50%) translateX(0); }
+    50%    { transform:translateY(-50%) translateX(-4px); }
+  }
+  @keyframes hintr{
+    0%, 100%{ transform:translateY(-50%) translateX(0); }
+    50%    { transform:translateY(-50%) translateX(4px); }
+  }
+}
+
+/* desktop never sees the mobile-only chevrons */
+@media (min-width:901px){
+  .hsite__hint{ display:none; }
 }
 
 @media (max-width:720px){

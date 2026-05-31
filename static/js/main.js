@@ -164,6 +164,9 @@
     document.body.appendChild(dotsEl);
     var dotEls = Array.prototype.slice.call(dotsEl.children);
 
+    var hintNext = document.getElementById("hintNext");
+    var hintPrev = document.getElementById("hintPrev");
+
     var mLastIdx = -1;
     var mUpdate = function () {
       if (window.innerWidth > 900 || !hsPin) return;
@@ -179,7 +182,35 @@
       mLastIdx = idx;
       panels.forEach(function (p, i) { p.classList.toggle("is-current", i === idx); });
       dotEls.forEach(function (s, i) { s.classList.toggle("is-active", i === idx); });
+      /* hint chevrons: hide "next" on the last panel, hide "prev" on the first */
+      if (hintNext) hintNext.classList.toggle("is-hidden", idx === N - 1);
+      if (hintPrev) hintPrev.classList.toggle("is-hidden", idx === 0);
     };
+
+    /* work-panel slider: update "01 / 07" indicator as the user
+       snaps through cards vertically. */
+    var wposNum = document.getElementById("wposNum");
+    if (wstack && wposNum) {
+      var lastWpos = -1;
+      var wUpdate = function () {
+        if (window.innerWidth > 900) return;
+        var card = wstack.querySelector(".wcard");
+        if (!card) return;
+        var step = card.offsetHeight + parseFloat(getComputedStyle(wstack).rowGap || "0");
+        if (step <= 0) return;
+        var i = Math.round(wstack.scrollTop / step);
+        if (i === lastWpos) return;
+        lastWpos = i;
+        wposNum.textContent = (i + 1 < 10 ? "0" : "") + (i + 1);
+      };
+      var wQueued = false;
+      wstack.addEventListener("scroll", function () {
+        if (!wQueued) {
+          wQueued = true;
+          requestAnimationFrame(function () { wUpdate(); wQueued = false; });
+        }
+      }, { passive: true });
+    }
 
     var mQueued = false;
     var mOnScroll = function () {
